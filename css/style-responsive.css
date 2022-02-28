@@ -1,0 +1,127 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1150px) {
+    .section-collection h2 {
+        font-size: 8rem;
+    }
+
+    .section-collection li a {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    h1 {
+        font-size: 20rem;
+    }
+
+    h1 span.head-right {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    h1 {
+        font-size: 15rem;
+    }
+
+    h1 span.head-right {
+        font-size: 8.5rem;
+    }
+
+    .section-collection h2 {
+        font-size: 5rem;
+    }
+
+    .bestseller-content {
+        height: 40rem;
+    }
+
+    .card1 {
+        width: 20rem;
+        height: 20rem;
+        background-size: 30rem;
+    }
+
+    .card2 {
+        width: 30rem;
+        height: 30rem;
+        background-size: 40rem;
+    }
+
+    .footer-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 12rem;
+    }
+
+    h1 span.head-right {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    footer ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h1 span.head-right {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .bestseller-content {
+        height: 30rem;
+    }
+
+    .card1 {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .card2 {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .besteller-text {
+        top: 35rem;
+        left: 15%;
+    }
+}
